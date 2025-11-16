@@ -1,0 +1,12 @@
+greenlet==3.3.0
+lz4==4.4.5
+numpy==2.3.5
+pandas==2.3.3
+python-dateutil==2.9.0.post0
+pytz==2025.2
+six==1.17.0
+SQLAlchemy==2.0.44
+sqlalchemy-sqlitecloud==0.1.2
+sqlitecloud==0.0.84
+typing_extensions==4.15.0
+tzdata==2025.2

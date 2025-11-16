@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>{% block title %} {{ post['title'] }} {% endblock %}</h2>
+<span class="badge badge-primary">{{ post['created'] }}</span>
+<p>{{ post['content'] }}</p>
+<a href="{{url_for('edit', post_id=post['id'])}}">
+    <span class="badge badge-warning">Edit</span>
+</a>
+<a href="{{url_for('delete', post_id=post['id'])}}">
+    <span class="badge badge-danger">Delete</span>
+</a>
+{% endblock %}
